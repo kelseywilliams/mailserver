@@ -1,0 +1,9 @@
+
+<burner@mailinator.com>: conversation with mail.kelseywilliams.co[172.22.0.2] timed out while receiving the initial server greeting
+recipient=burner@mailinator.com
+offset=259
+dsn_orig_rcpt=rfc822;burner@mailinator.com
+status=4.4.2
+action=delayed
+reason=conversation with mail.kelseywilliams.co[172.22.0.2] timed out while receiving the initial server greeting
+

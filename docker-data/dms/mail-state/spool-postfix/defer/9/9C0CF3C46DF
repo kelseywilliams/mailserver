@@ -1,0 +1,9 @@
+
+<kelseywilliams1200@gmail.com>: conversation with mail.kelseywilliams.co[172.22.0.2] timed out while receiving the initial server greeting
+recipient=kelseywilliams1200@gmail.com
+offset=273
+dsn_orig_rcpt=rfc822;kelseywilliams1200@gmail.com
+status=4.4.2
+action=delayed
+reason=conversation with mail.kelseywilliams.co[172.22.0.2] timed out while receiving the initial server greeting
+

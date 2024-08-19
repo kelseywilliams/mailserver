@@ -21,8 +21,9 @@ services:
       - ./docker-data/dms/mail-logs/:/var/log/mail/
       - ./docker-data/dms/config/:/tmp/docker-mailserver/
       - /etc/localtime:/etc/localtime:ro
-      - /etc/letencrypt/live/mail.kelseywilliams.co/:/etc/letsencrypt/live/mail.kelseywilliams.co/
-    restart: always
+      - ./docker-data/certbot/certs/:/etc/letsencrypt/
+      - ./docker-data/certbot/logs/:/var/log/letsencrypt/
+    restart: on-failure
     stop_grace_period: 1m
     # Uncomment if using `ENABLE_FAIL2BAN=1`:
     # cap_add:

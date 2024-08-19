@@ -1,0 +1,16 @@
+Return-Path: <root@mail.example.com>
+Delivered-To: admin@kelseywilliams.co
+Received: from mail.example.com
+	by mail.example.com with LMTP
+	id 0xzuH3B0wWavCwAAYIgGOA
+	(envelope-from <root@mail.example.com>)
+	for <admin@kelseywilliams.co>; Sun, 18 Aug 2024 04:11:28 +0000
+Received: by mail.example.com (Postfix, from userid 0)
+	id 7B4823C46DF; Sun, 18 Aug 2024 04:11:28 +0000 (UTC)
+Subject: Test Email
+To: recipient@example.com
+From: user@yourdomain.com
+Message-Id: <20240818041128.7B4823C46DF@mail.example.com>
+Date: Sun, 18 Aug 2024 04:11:28 +0000 (UTC)
+
+This is a test email.

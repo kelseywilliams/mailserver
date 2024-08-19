@@ -23,6 +23,7 @@ services:
       - /etc/localtime:/etc/localtime:ro
       - ./docker-data/certbot/certs/:/etc/letsencrypt/
       - ./docker-data/certbot/logs/:/var/log/letsencrypt/
+      - ./postfix/:/etc/postifx/
     restart: on-failure
     stop_grace_period: 1m
     # Uncomment if using `ENABLE_FAIL2BAN=1`:

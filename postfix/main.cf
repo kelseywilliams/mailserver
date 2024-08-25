@@ -1,2 +1,0 @@
-virtual_alias_domains = kelseywilliams.co
-virtual_alias_maps = hash:/etc/postfix/virtual
